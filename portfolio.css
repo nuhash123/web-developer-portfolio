@@ -102,6 +102,11 @@ nav a {
 }
 
 /* main section styles  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .about {
     border-radius: 10px;
     background: rgb(255, 248, 243);
@@ -121,4 +126,27 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+
+}
+
+.info-title {
+
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.info_description {
+    font-size: 20px;
+    font-weight: 700;
+
 }
